@@ -7,8 +7,8 @@ color_changer.title('color')
 
 def update():
     color = "%05x" % randint(0, 0xFFFFFF)
-    color_changer.config(background='#fcba03' + color)
-    color_changer.after(200, update)
+    color_changer.config(bg='#fcba03' + color)
+    color_changer.after(1000, update)
 
 
 update()

@@ -1,10 +1,8 @@
 from tkinter import Tk
 from tkinter import Label
 import time
-
 master = Tk()
 master.title("Digital Clock")
-
 clock = Label(master, font=("time", 90), bg=("black"), fg=("white"))
 clock.pack()
 

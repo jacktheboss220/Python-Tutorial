@@ -1,2 +1,5 @@
 st = "test"
-del st
+ch = list(st)
+ch[0] = "k"
+print(''.join(ch))
+
